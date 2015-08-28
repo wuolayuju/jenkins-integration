@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1440747346000" analysisTimestamp="1440747362607" release="">
+  <Project>
+    <Jar>/Users/arihandler/Documents/workspace/foo-library/target/classes/com/autentia/foo/FooBar.class</Jar>
+    <Jar>/Users/arihandler/Documents/workspace/foo-library/target/classes/com/autentia/foo/FooFoo.class</Jar>
+    <AuxClasspathEntry>/Users/arihandler/Documents/workspace/foo-library/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/arihandler/.m2/repository/junit/junit/4.12/junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/arihandler/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/arihandler/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/arihandler/Documents/workspace/foo-library/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/arihandler/Documents/workspace/foo-library/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <SrcDir>/Users/arihandler/Documents/workspace/foo-library/src/main/java</SrcDir>
+    <SrcDir>/Users/arihandler/Documents/workspace/foo-library/target/generated-sources/annotations</SrcDir>
+    <WrkDir>/Users/arihandler/Documents/workspace/foo-library/target</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 28 Aug 2015 09:35:46 +0200" total_classes="2" referenced_classes="11" total_bugs="0" total_size="13" num_packages="1" vm_version="24.79-b02" cpu_seconds="5.11" clock_seconds="2.90" peak_mbytes="553.36" alloc_mbytes="1820.50" gc_seconds="0.00">
+    <FileStats path="com/autentia/foo/FooBar.java" bugCount="0" size="8"/>
+    <FileStats path="com/autentia/foo/FooFoo.java" bugCount="0" size="5"/>
+    <PackageStats package="com.autentia.foo" total_bugs="0" total_types="2" total_size="13">
+      <ClassStats class="com.autentia.foo.FooBar" sourceFile="FooBar.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.autentia.foo.FooFoo" sourceFile="FooFoo.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="619" invocations="292" avgMicrosecondsPerInvocation="2121" maxMicrosecondsPerInvocation="44152" standardDeviationMircosecondsPerInvocation="4527"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="187" invocations="11" avgMicrosecondsPerInvocation="17073" maxMicrosecondsPerInvocation="54338" standardDeviationMircosecondsPerInvocation="19813"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="172" invocations="56" avgMicrosecondsPerInvocation="3074" maxMicrosecondsPerInvocation="17573" standardDeviationMircosecondsPerInvocation="3886"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="103" invocations="293" avgMicrosecondsPerInvocation="352" maxMicrosecondsPerInvocation="11713" standardDeviationMircosecondsPerInvocation="879"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="87" invocations="4" avgMicrosecondsPerInvocation="21816" maxMicrosecondsPerInvocation="86811" standardDeviationMircosecondsPerInvocation="37524"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="84" invocations="11" avgMicrosecondsPerInvocation="7714" maxMicrosecondsPerInvocation="27029" standardDeviationMircosecondsPerInvocation="9627"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="73" invocations="261" avgMicrosecondsPerInvocation="281" maxMicrosecondsPerInvocation="9199" standardDeviationMircosecondsPerInvocation="704"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="56" invocations="11" avgMicrosecondsPerInvocation="5124" maxMicrosecondsPerInvocation="35319" standardDeviationMircosecondsPerInvocation="9817"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="45" invocations="14" avgMicrosecondsPerInvocation="3258" maxMicrosecondsPerInvocation="19972" standardDeviationMircosecondsPerInvocation="5479"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
